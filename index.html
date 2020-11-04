@@ -15,32 +15,28 @@ Make the text a different color depending on which rank was chosen<br>
 Ensure your form is accessible! (Hint: Use |label| elements)<br><br>
 
 
-
 <form>
 
-    <input type="radio" name="rank" id="capt">
+    <input type="radio" name="rank" id="capt" value="Captain">
     <label for="capt">Captain</label>
 
     <br>
 
-    <input type="radio" name="rank" id="tsgt">
+    <input type="radio" name="rank" id="tsgt" value="Sargent">
     <label for="tsgt">Sargent</label>
 
     <br>
 
-    <input type="radio" name="rank" id="gen">
+    <input type="radio" name="rank" id="gen" value="General Army">
     <label for="gen">General Army</label>
 
     <br>
 
-    <button>Hi  <span id="rankname"></span> </button>
 </form>
 
-
-
-
-
-
+<label for="textBoxOne">Enter your full name</label>
+<input id="textBoxOne" type="text">
+<p id="output"></p>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
